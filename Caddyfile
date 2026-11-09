@@ -1,0 +1,15 @@
+# Replace yourdomain.com. Caddy gets HTTPS certificates automatically.
+yourdomain.com, www.yourdomain.com {
+	root * /var/www/site
+	encode gzip
+	try_files {path} {path}.html {path}/index.html
+	file_server
+	header {
+		Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		-Server
+	}
+}

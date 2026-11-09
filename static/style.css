@@ -1,0 +1,9 @@
+body { max-width: 640px; margin: 2rem auto; padding: 0 16px; font: 18px/1.5 "Times New Roman", Times, serif; color: #000; background: #fff; }
+a { color: #00e; } a:visited { color: #551a8b; }
+ul { list-style: none; padding: 0; }
+li { margin: .25rem 0; }
+hr { border: 0; text-align: center; margin: 1.5rem 0; }
+hr::after { content: "* * *"; }
+h1 { font-size: 1.4rem; font-weight: normal; }
+pre { font-size: 12px; line-height: 1.2; overflow-x: auto; }
+.d { color: #777; font-size: .9em; }

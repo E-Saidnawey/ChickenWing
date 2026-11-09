@@ -1,0 +1,7 @@
+# One link per line:  label | https://url   (only https:// and mailto: are allowed)
+spotify | https://open.spotify.com/artist/YOUR_ID
+apple music | https://music.apple.com/artist/YOUR_ID
+bandcamp | https://YOURNAME.bandcamp.com
+soundcloud | https://soundcloud.com/YOURNAME
+instagram | https://instagram.com/YOURNAME
+contact by email | mailto:you@example.com
